@@ -8,7 +8,10 @@
 "
 
 " Logical size of GVim window
+" 'javascript', 'html', 'misc']
 set lines=35 columns=99
+
+let g:vundles=['general', 'programming', 'php', 'ruby', 'python',
 
 " Don't display the menu or toolbar. Just the screen.
 set guioptions-=m
